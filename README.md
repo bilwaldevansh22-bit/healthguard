@@ -1,2 +1,2 @@
 # healthguard
-ML project for customer segmentation
+ML project for health predictions
