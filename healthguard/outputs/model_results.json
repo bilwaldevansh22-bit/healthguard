@@ -1,0 +1,101 @@
+{
+  "Diabetes": {
+    "best_model": "Logistic Regression",
+    "all_model_results": {
+      "Logistic Regression": {
+        "accuracy": 0.6725,
+        "precision": 0.6010928961748634,
+        "recall": 0.6547619047619048,
+        "f1_score": 0.6267806267806267,
+        "roc_auc": 0.7296669745484401
+      },
+      "Random Forest": {
+        "accuracy": 0.6525,
+        "precision": 0.5873493975903614,
+        "recall": 0.5803571428571429,
+        "f1_score": 0.5838323353293413,
+        "roc_auc": 0.7149463772577996
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.65875,
+        "precision": 0.6197718631178707,
+        "recall": 0.4851190476190476,
+        "f1_score": 0.5442404006677797,
+        "roc_auc": 0.7097059729064039
+      }
+    },
+    "top_features": [
+      {
+        "feature": "glucose_level",
+        "importance": 0.5371523168884021
+      },
+      {
+        "feature": "family_history",
+        "importance": 0.3882740407225941
+      },
+      {
+        "feature": "age",
+        "importance": 0.32231541213177545
+      },
+      {
+        "feature": "bmi",
+        "importance": 0.27589608227998585
+      },
+      {
+        "feature": "sleep_hours",
+        "importance": 0.12303692706636643
+      }
+    ]
+  },
+  "Heart Disease": {
+    "best_model": "Logistic Regression",
+    "all_model_results": {
+      "Logistic Regression": {
+        "accuracy": 0.67125,
+        "precision": 0.44598337950138506,
+        "recall": 0.71875,
+        "f1_score": 0.5504273504273505,
+        "roc_auc": 0.7615714905753969
+      },
+      "Random Forest": {
+        "accuracy": 0.70625,
+        "precision": 0.48056537102473496,
+        "recall": 0.6071428571428571,
+        "f1_score": 0.5364891518737672,
+        "roc_auc": 0.7414977058531746
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.7375,
+        "precision": 0.5492957746478874,
+        "recall": 0.3482142857142857,
+        "f1_score": 0.4262295081967213,
+        "roc_auc": 0.7370644221230158
+      }
+    },
+    "top_features": [
+      {
+        "feature": "stress_level",
+        "importance": 0.4642319291302574
+      },
+      {
+        "feature": "cholesterol",
+        "importance": 0.46361538358006654
+      },
+      {
+        "feature": "age",
+        "importance": 0.3988656074396904
+      },
+      {
+        "feature": "smoker",
+        "importance": 0.3570340739177288
+      },
+      {
+        "feature": "systolic_bp",
+        "importance": 0.3101661027301076
+      }
+    ]
+  },
+  "dataset_size": 4000,
+  "diabetes_prevalence": 0.4195,
+  "heart_disease_prevalence": 0.28
+}
